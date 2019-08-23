@@ -6,3 +6,11 @@ From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-d
 
  - Writing in Markdown
  - Basic HTML forms
+ - Dealing with some Github bugs
+ - Floating content
+ - Layouting
+ - Choosing nice colors
+ - Effects on Hover
+ - Searching images to make icons
+ - Creating a circle in CSS
+ - Margin and Padding
