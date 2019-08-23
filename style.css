@@ -6,31 +6,40 @@
 header {
   text-align: right;
   font-family: Helvetica;
-  margin: 20px;
+  margin: 10px;
 }
 
 header ul li {
   display: inline-block;
   font-size: 14px;
+  margin: 5px;
 }
 
 header ul li a {
   color: gray;
-  padding: 10px;
-  margin: 1px;
+  padding: 5px;
+  margin: 0;
   text-decoration: none;
 }
 
+header ul li a img {
+  background-color: red;
+  margin: -5px;
+  position: relative;
+  top: 5px;
+}
+
 #user {
-  font-size: 20px;
+  font-size: 17px;
   background-color: purple;
   color: white;
   border-radius: 100%;
+  padding: 7px;
 }
 
 main {
   width: 600px;
-  height: 200px;
+  height: 330px;
   margin: 15% auto;
 }
 
@@ -46,7 +55,7 @@ input {
   width: 90%;
   margin: 20px;
   height: 1em;
-  font-size: 20px;
+  font-size: 16px;
   border-radius: 30px;
   padding: 10px;
   border: 1px solid #eee;
@@ -76,4 +85,41 @@ input:focus {
 #buttons *:hover {
   color: black;
   border: 1px solid #ccc;
+}
+
+footer {
+  background-color: #eee;
+  color: #555;
+  height: 80px;
+  font-size: 13px;
+}
+
+footer h3 {
+  border: 1px solid #ddd;
+  font-weight: normal;
+  margin: 0;
+}
+
+footer * {
+  text-align: left;
+  font-family: Helvetica;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+footer div :nth-child(1){
+  float: left;
+}
+
+footer div * {
+  display: inline-block;
+  padding: 0;
+  padding-right: 30px;
+  margin-bottom: 0;
+}
+
+footer div :nth-child(2){
+  float: right;
+  padding-right: 0;
+  margin-right: 12px;
 }
